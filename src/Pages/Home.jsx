@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Element
       name="home"
-      className="flex flex-col min-h-screen items-center justify-center px-6 md:px-10 overflow-hidden "
+      className="flex flex-col min-h-screen items-center justify-center px-6 md:px-10 overflow-hidden pb-20 "
     >
       <div className="flex items-center justify-center md:justify-between mb-20 md:px-30 w-full gap-5 ">
         <img src={logo1} draggable={false} className="w-[60px] md:w-[90px] lg:w-[120px] z-9" alt="" />

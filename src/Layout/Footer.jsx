@@ -1,11 +1,24 @@
+import { Facebook } from "lucide-react";
+
 export default function Footer() {
   const year = new Date().getFullYear(); 
 
   return ( 
     <>
-    <div className='flex items-center justify-center text-[16px] md:text-[18px] bg-orange-500 h-15 text-white'>
-      <footer className="text-[14px] md:text-[17px]">Copyright &copy; {year} BFP Morong. All Rights Reserved </footer>
-    </div>
+    <footer className="grid grid-cols-2 bg-[#0B3C5D] h-20 text-white px-8 md:px-10">
+      <div className="flex items-center">
+        <a target="_" href="https://www.facebook.com/morongfs.rizal/"><Facebook/></a>
+      </div>
+      <div className="text-right flex flex-col justify-center">
+        <p className="text-[10px] md:text-[14px]">BFP MORONG EMERGENCY HOTLINE NUMBER</p>
+        <p className="text-[10px] md:text-[14px]">09084417754</p> 
+        <p className="text-[10px] md:text-[14px]">#ThinkFireSafetyNow</p>
+      </div>
+    </footer>
+      <div className="text-center w-full pb-2 bg-[#0B3C5D] text-white">
+        <p className="text-[10px] md:text-[14px]">Copyright &copy; {year} BFP Morong. All Rights Reserved</p>
+      </div>
+    
     </>
   )
 }

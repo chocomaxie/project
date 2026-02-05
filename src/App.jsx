@@ -8,6 +8,7 @@ import About from "./Pages/About";
 import Activities from "./Pages/Activities";
 import Gallery from "./Pages/Gallery";
 import Album from "./Pages/Album"; // 👈 bagong page
+import Guide from "./Pages/Guide";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
               <>
                 <Home />
                 <About />
+                {/* <Guide /> */}
                 <Activities />
                 <Gallery />
               </>

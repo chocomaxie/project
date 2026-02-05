@@ -32,7 +32,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex justify-end md:justify-center items-center h-15 fixed top-0 left-0 w-full z-50 px-10 md:px-5 bg-red-500 text-white shadow">
+    <nav className="flex justify-end md:justify-center items-center h-15 fixed top-0 left-0 w-full z-50 px-10 md:px-5 bg-[#C1121F] text-white shadow">
       {/* DESKTOP */}
       <div className="gap-5 list-none hidden md:flex">
         <span
@@ -47,6 +47,12 @@ export default function Navbar() {
         >
           About
         </span>
+        {/* <span
+          onClick={() => handleNavClick("guide")}
+          className="cursor-pointer hover:font-bold"
+        >
+          Guide
+        </span> */}
         <span
           onClick={() => handleNavClick("activities")}
           className="cursor-pointer hover:font-bold"
