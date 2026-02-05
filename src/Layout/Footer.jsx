@@ -3,7 +3,7 @@ export default function Footer() {
 
   return ( 
     <>
-    <div className='flex items-center justify-center text-[16px] md:text-[18px] bg-gray-200 h-15'>
+    <div className='flex items-center justify-center text-[16px] md:text-[18px] bg-orange-500 h-15 text-white'>
       <footer className="text-[14px] md:text-[17px]">Copyright &copy; {year} BFP Morong. All Rights Reserved </footer>
     </div>
     </>
